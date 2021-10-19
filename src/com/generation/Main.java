@@ -21,5 +21,14 @@ public class Main {
         lomito2.tamanio = "enorme";
         lomito2.caracteristicas();
         lomito2.comer();
+        lomito2.dormir();
+
+
+        Perro lomito3 = new Perro("Milaneso");
+        lomito3.jugar();
+
+        Perro lomito4 = new Perro("Sr. Kawamura", "Husky", 4, "Gigante");
+        lomito4.caracteristicas();
+
     }
 }
